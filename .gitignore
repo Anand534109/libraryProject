@@ -1,0 +1,46 @@
+# ====================================================================
+# Eclipse-specific files (Do not upload)
+# ====================================================================
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+*.launch
+*.eeconfig
+
+# Optional: Ignore local settings but keep project structure
+.settings/
+.classpath
+.project
+
+
+# ====================================================================
+# Build Outputs (Do not upload compiled code)
+# ====================================================================
+bin/
+gen/
+out/
+target/
+build/
+Maven Dependencies/
+webapp/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+
+
+
+
+# ====================================================================
+# Log files and OS garbage
+# ====================================================================
+*.log
+.DS_Store
+Thumbs.db
+
+# ====================================================================
+# Credentials and Environment files (CRITICAL)
+# ====================================================================
+.env
+*.properties
