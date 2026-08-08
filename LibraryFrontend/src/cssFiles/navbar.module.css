@@ -1,0 +1,81 @@
+*{
+    /* border: 2px solid black; */
+    /* margin: 0;
+    padding: 0; */
+}
+
+.position{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 1;
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 175px 0px 160px;
+    height: 80px;
+
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.list{
+    /* border: 2px solid black;  */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.list ul{
+    margin: 0px;
+    /* border: 2px solid black; */
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+}
+.container h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.container ul li{
+    /* border: 2px solid black; */
+    margin:0px 10px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.smallContainer{
+    position: absolute;
+    left: 310px;
+    width: 300px;
+    background-color: white;
+    /* border: 2px solid black; */
+    /* border-radius: 5px; */
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.smalllist{
+    width: 100%;
+    text-align: center;
+    padding: 8px 2px;
+    transition: all;
+    transition-duration: 0.5s;
+    /* border: 2px solid black; */
+}
+
+.smalllist:hover{
+    background-color: #8e9eab;
+    
+}
+
+.cursor{
+    cursor: pointer;
+}

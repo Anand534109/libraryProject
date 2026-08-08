@@ -1,0 +1,38 @@
+.container1{
+    
+    background-image:url("../CoverPage/library.jpg");
+    background-repeat: no-repeat;
+    background-size: 1536px auto;
+
+    /* background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab); */
+
+}
+
+.container2{
+    border: 2px solid black;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container2 h1{
+    color: white;
+    font-size: 4rem ;
+    font-weight: 700;
+    opacity:1;
+}
+
+.container2 p{
+    color: white;
+    line-height: 15px;
+    /* font-weight: 700; */
+    font-size: 1.3rem;
+    opacity: 1;
+}
